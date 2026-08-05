@@ -1,0 +1,21 @@
+.style-css {
+    padding: 1% 1% 1% 1%;
+    margin: 1% 1% 1% 1%;
+    margin-left: auto;
+    margin-right: auto;
+color: aquamarine;
+background: grey;
+border-left: red 10px solid;
+border-right: red 10px solid ;
+border-top:  red 10px solid;
+border-bottom:  red 10px solid;
+width: 30%;
+display: inline-block;
+vertical-align: middle;
+box-sizing: border-box;
+border-radius: 10px 10px 10px 10px;
+}
+
+.marign-left-right{
+    margin: 0 4%;
+}

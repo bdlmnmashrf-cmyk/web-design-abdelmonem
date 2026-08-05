@@ -1,0 +1,19 @@
+.style-ddd{
+    background: lawngreen;
+    width: 40%;
+    display:inline-block;
+}
+.style-form{
+width: 40%;
+display:inline-block;
+vertical-align: middle
+}
+
+.consectetur {
+ width: 40%;
+ display: inline-block;
+ vertical-align: middle;
+ margin-left: 5%;
+ background: lawngreen;
+}
+

@@ -37,59 +37,149 @@ margin-top: 10px;
     float: left;
 }
 
-.bage-1 {
-    overflow: hidden;
-    margin: 10px;  
+.bage- {
+    float: left;
     width: 100%; 
-    height: 100%; 
-              
-}
-.lorem{
-    font-size:smaller;
     text-align: left;
+    color: white; 
 }
-.border{
-    width: 60px;
-    height: 3px;
-    background-color: black;
+.i{
+    font-size: 50px;
+    color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+.border {
+    width: 50px;           /* عرض الخط بقى صغير ومحدد */
+    height: 3px;           /* سمك الخط */
+    background-color: white; /* لون الخط أبيض عشان يبان فوق التغيمة */
     border: none;
-    margin: 20px 0;
+      /* مسافات فوق وتحت */
+    margin-right: auto;   
+    text-align: center;  /* الكود السحري: بيزق الخط ويثبته في الناحية اليمين */
+}
+.adress{
+ font-size: 50px;
+ text-align: left;
+ padding: 10% 0 0;
 }
 .adress-1{
-    font-size:medium;
-    margin: 2px;
-    color: rgba(0, 0, 0, 0.432);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
 }
-.bage-{
+.lorem{
+font-size: small;
+margin:3% 0 10% 0 ;
+text-align: left;
+}
+.format-formm {
+    float: right;
+    width: 50%; 
+    background-color: white; 
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.section-1 {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    background-image: url("photo/WhatsApp\ Image\ 2026-08-05\ at\ 4.25.13\ PM.jpeg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.btn-download{
+
+    width: 50%;
+    font-size: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid white 5px;
+    color: white;
+    margin-bottom: 20%;
+}
+.bg-color {
+    background-color: rgba(0, 0, 0, 0.542);
+    width: 100%;
+}
+
+.contain-1 {
+    width: 85%;
+    margin: auto;
+}
+
+.bage- {
     float: left;
-    width: 30%;
+    width: 50%;
+    text-align: left;
+    color: white; 
 }
-.format-formm{
- border: 10px solid white ;
- width:30%;
- float: right;
-}
-
 .adress-form{
-    font-size: small;
+font-size: large;
+font-weight: 100%;
+background-color: lightgray;
+text-align: center;
+padding: 5% 0;
+}
+.F{
+    color: orange;
+}
+.format-formm {
+    float: right;
+    width: 42%;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 100%;
+    margin-top: 15%;
+}
+.inputs{
+    border-top: none;
+    text-align: center;
+    width: 100%;
+    padding: 5% 0;
+}
+.name{
 
-    background-color: rgba(211, 211, 211, 0.656);
+    border-top: 5px;
+    border-left:hidden;
+    border-right: hidden;
+}
+.email{
+
+    border-top: 5px;
+    border-left:hidden;
+    border-right: hidden;
+}
+.Password{
+    
+    border-top: 5px;
+    border-left:hidden;
+    border-right: hidden;
+
 }
 .sub{
 
-    width: 30%;
-    text-align: center;
-    
+background-color: orange;
+text-align: center;
+width:100% ;
+margin:0;
+padding:5% 0 ;
+}
+.clear {
+    clear: both;
 }
 .all{
-
-width: 90%;
+    
+width: 100%;
 overflow: hidden;
-margin: auto;
-padding: 5%;
-margin-top: 5px;
+padding: 5% ;
+margin: 5px;
+height: auto;
 }
 .table1s{
 border: 1px rgba(0, 0, 0, 0) solid;
@@ -122,7 +212,7 @@ background-color: orange;
     float: left;
     width: 50%;
     font-size: medium;
-    padding: o 40px;
+    padding: 0 40px;
 
 }
 .h{
@@ -146,4 +236,335 @@ background-color: orange;
     color: white;
     font-size: medium;
     margin-top: 5px;
+}
+
+.style-section {
+    padding: 5% 10%;
+    text-align: center;
+    background-color: #e6e6ea;
+}
+.title{
+    margin: 10px 0;
+}
+.pord {
+
+    border: 1px solid orange;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.card {
+    float: left; 
+    width: 31%; 
+    margin-right: 3.5%; 
+    text-align: center;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.icon-circle {
+    width: 70px;
+    height: 70px;
+    border: 2px solid orange;
+    border-radius: 50%;
+    margin: 0 auto 15px auto;
+    color: orange;
+    font-size: 28px;
+    line-height: 70px; 
+    text-align: center; 
+     margin-top: 20px;
+
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+.section-4{
+
+background-color: lightgrey;
+text-align: center;
+width: 100%;
+overflow: hidden;
+padding: 5% ;
+margin: 5px;
+height: auto;
+}
+.title-4{
+    margin: 10px 0;
+
+}
+.lorem-7{
+    
+        text-align: center;
+        color: gray;
+        padding: 0 ;
+        margin: 10px 0;
+        font-size: smaller; 
+
+}
+
+
+.mony-1, .mony-2, .mony-3 {
+
+    display: inline-block;
+    width: 30%; 
+    border: 1px ;
+    padding: 20px;
+    margin: 1%; 
+    box-sizing:border-box
+}
+    .bas, .pro, .ent{
+
+        border-bottom:1px white solid ;
+        background-color: gray;
+        font-size: 15px;
+        padding: 3px;
+        color: white;
+    }
+    .dolar-0, .dolar-19, .dolar-70{
+
+        background-color: gray;
+        font-size: 30px;
+        padding: 5px;
+        color: white;
+    }
+    .free, .mon, .mot {
+        border-bottom:5px orange solid  ;
+        background-color: gray;
+        font-size: 10px;
+        padding: 5px;
+        color: rgba(255, 255, 255, 0.706);
+        font-style: italic;
+    }
+    .gb-1, .gb-10, .we-3, .ba, .em, .un, .unt, .we-100, .adva, .word, .cost {
+
+        text-align: center;
+        background-color: white;
+        color: gray;
+        padding: 10px ;
+        border-bottom:1px solid ;
+        font-size: xx-small; 
+    }
+    .g-5, .we-12, .ad, .wo, .ema {
+
+        
+        text-align: center;
+        background-color: white;
+        color: gray;
+        padding: 10px ;
+        border-bottom:1px solid ;
+        font-size: xx-small; 
+
+    }
+    .or{
+        font-size: 15px;
+        background-color: orange;
+        color: white;
+    }
+    .mony-2{
+
+        position: relative;
+        bottom: 20px;
+    }
+     .mony-1{
+
+        position: relative;
+        top: 20px;
+     }
+     .mony-3{
+        
+        position: relative;
+        top: 20px;
+     }
+    
+.Images {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center; 
+}
+
+.title-4 {
+    text-align: center;}
+
+.pord {
+    width: 50px;
+    border: 1px solid #ff9800; /* الخط البرتقالي */
+    margin: 0 auto 20px auto;
+}
+
+.s {
+
+    color: lightgrey;
+    margin-bottom: 50px;
+}
+
+
+.section-5 {
+    text-align: center; 
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.box {
+    display: inline-block; 
+    width: 30%; 
+    margin: 0 1%; 
+    vertical-align: top; /*   الترتيب من فوق لتحت*/
+    box-sizing: border-box;
+}
+
+
+.ser {
+    background-color: lightgray;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 25px; 
+}
+.ser::after {
+    content: '';
+    position: absolute;
+    top: 100%; /* عشان ينزل تحت المربع الرمادي */
+    left: 25px; /* المسافة من الشمال (تقدر تغير الرقم ده عشان تظبطه فوق الصورة بالظبط) */
+    
+    width: 0;
+    height: 0;
+    
+    /* سر المثلث القائم الزاوية: */
+    border-top: 20px solid lightgray; /* ده بيدي اللون والارتفاع */
+    border-right: 20px solid transparent; /* ده اللي بيعمل الخط المايل من اليمين */
+    
+    border-left: 0; /* ده بيخلي الخط ينزل مستقيم تماماً من ناحية الشمال */
+    border-bottom: 0;
+}
+
+.lorem-20 {
+    font-size: 14px;
+    color:black;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left; 
+}
+
+
+.user-info {
+    text-align: left; 
+    padding-left: 20px; 
+    margin-top: 10px;
+}
+
+
+.img-1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block; 
+    vertical-align: middle; 
+    margin: 0; 
+}
+
+
+.user-text {
+    display: inline-block; 
+    vertical-align: middle;
+    margin-left: 15px; 
+}
+
+.user-name {
+    margin: 0;
+    font-size: 16px;
+    color: black;
+}
+
+.user-title {
+    margin: 0;
+    font-size: 13px;
+    color: black;
+    margin-top: 3px;
+}
+.section-6{
+
+    width: 100%;
+    height: auto;
+    background-image: url("photo/WhatsApp\ Image\ 2026-08-08\ at\ 2.43.07\ AM.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.title-5{
+    font-size:larger;
+    color: white;
+    margin: 5px 0;
+    padding: 5px 0;
+
+}
+.bt-download{
+    width: 15%;
+    font-size: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid white 1px;
+    color: white;
+    margin-bottom: 3%;
+    }
+    .ss{
+    color: lightgrey;
+    margin-bottom: 10px;
+    margin: 5px;
+    padding: 5px;
+    }
+    .pords{
+    border: 1px solid white;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .last{
+        overflow: hidden;
+        text-align: center;
+        height: auto;
+        
+    }
+    .form-2
+    {
+float: left;
+padding-right: 70px;
+margin-left: 90px;
+margin-top: 50px;
+margin-bottom: 50px;
+    }
+    .form-3{
+        float: left;
+        padding-left: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .sub-1{
+background-color: orange;
+color: white;
+text-align: center;
+width:20% ;
+margin:20px;
+padding:5px  ;
+
 }

@@ -1,0 +1,138 @@
+
+@media (min-width : 768px) and (max-width : 1024px){
+    .imm{
+        display: none;
+    }
+    .h-2{
+        width: 100%;
+        text-align: center;
+    }
+    .section-2{
+        width: 80%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .contain-2{
+        
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+    }
+    .left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .lorem-13{
+
+        text-align: center;
+        width: 100%;
+        font-size: 100%;
+        padding: 50%;
+        justify-content: left;
+        margin-left: 20%;
+        justify-items: center;
+        
+    }
+    .icon{
+        
+        text-align: center;
+        width: 100%;
+
+    }
+    .left{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+
+    }
+    .icon{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin-left: 100%;
+        padding: 20%;
+        margin: 5%;
+    }
+   .section-3{
+    width: 80%;
+   }     
+   .contain-3{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   } 
+   .im-3{
+    width: 10%;
+   }
+   .f{
+    width: 50%;
+   }
+   .ic{
+    width: 100%;
+    padding: 2% 0;
+   }
+   .section-4{
+    width: 80%;
+   }
+   .contain-4{
+    width: 100%;
+   }
+   .ph-4{
+    display: none;
+   }
+   .section-5{
+    width: 80%;
+   }
+
+.contain-5{
+    width:80%;
+    margin:auto;
+    
+}
+.cd{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.parnt-icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    left: 140px;
+    top:30px
+
+}
+   .ico-last{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 25%;
+    padding: 25%;
+    font-size: 25%;
+    
+   }
+   .foter{
+    width: 80%;
+   }
+   .nv{
+    width:100% ;
+   }
+   .l-2{
+    
+      text-align: left;
+      margin-right: 60%;
+      padding-top: 1%;
+   } 
+}

@@ -1,0 +1,18 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.cc{
+    opacity: 0%;
+    
+    
+}
+
+ .cc:hover{
+    opacity: 100%;
+    
+    
+}
